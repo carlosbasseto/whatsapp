@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --cinza: rgb(84,101,111);
+    --cinza-claro: rgb(187, 190, 192);
+}
+
+.container{
+    display: flex;
+}
+
+.menu-lateral{
+    background-color: rgb(240, 242, 245);
+    width: 5%;
+    height: 100vh;
+    text-align: center;
+    border: 1px solid rgb(84,101,111);
+}
+
+.chats{
+    background-color: white;
+    width: 30%;
+    height: 100vh;
+    border: 1px solid rgb(84,101,111);
+}
+
+.mensagem{
+    background-color:  rgb(240, 242, 245);
+    width: 65%;
+    height: 100vh;
+    border: 1px solid rgb(84,101,111);
+}
+
+.container-lateral{
+    padding: 15px;
+    display: flex;
+    border-radius: 50%;
+    
+}
+
+.img-lateral{
+    width:30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.numero{
+    color: rgb(81, 224, 81);
+    font-weight: bold;
+}
+
+.engrenagem-lateral{
+    width: 30px;
+    fill: rgb(84,101,111);
+    margin-top: 400%;
+}
+
+.eu-img{
+    width: 38px;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+
+.container-chats{
+    display: flex;
+}
+
+.img-chat{
+    width: 20px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.menu-chat{
+    width: 7px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.container-chats-img{
+    padding: 15px;
+}
+
+h2{
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.pesquisa-chat{
+    display: flex;
+}
+
+.lupa{
+    width: 25px;
+    margin-left: 15px;
+}
+
+.pesquisa{
+    background-color: var(--cinza-claro);
+    width: 350px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.pesquisa::placeholder{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.botoes-chat{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-chat{
+    padding: 12px;
+    width: 115px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.pessoa-chat{
+    padding: 15px;
+    display: flex;
+    border-top: 1px solid var(--cinza-claro);
+    border-bottom: 1px solid var(--cinza-claro);
+    width: 90%;
+    margin-left:5%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.pessoa-chat:hover{
+    background-color:rgb(245,246,246)
+}
+
+.img-pessoa{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.nome-pessoa{
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.mensagem-env{   
+    display: flex;
+}
+
+.nao-enviado{
+    width: 20px;
+    margin-left: 25px;
+}
+
+.mensagem-nao-enviada{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.nao-chegou{
+    width: 13px;
+    margin: 5px;
+    fill: var(--cinza);
+}
+
+.mesagem-teste{
+    margin-top: 29px;
+}
+
+.horario-men{
+    margin-left: 130px;
+    color: var(--cinza);
+}
+
+.chegou{
+    width: 13px;
+    margin: 5px;
+    fill: #4ab8da;
+}
+
+.mensagem{
+    background-image: url(fndo.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.btn-dia{
+    text-align: center;
+}
+
+.img-gui{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    height: 40px;
+}
+
+header{
+    background-color:  rgb(240, 242, 245);
+    height: 60px;
+    display: flex;
+}
+
+.nome-mensagem{
+    margin-top: 22px;
+    font-weight: bold;
+}
+
+.camera{
+    width: 25px;
+    margin-left: 70%;
+    fill: var(--cinza);
+}
+
+.svg-mensagem{
+    width: 5px;
+    fill: var(--cinza);
+}
+
+.lupa-mensagem{
+    width: 18px;
+    fill: var(--cinza);
+    margin: 8px;
+}
+
+.botao-mensagem{
+    margin-top: 25px;
+    width: 120px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 17px;
+    color: var(--cinza);
+}
+
+.mensagem-dele{
+    display: flex;
+    background-color: white;
+    width: 150px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.horario-mensagem{
+    color: var(--cinza);
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.mensagem-dele-2{
+    display: flex;
+    background-color: white;
+    width: 250px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.mensagem-dele-3{
+    display: flex;
+    background-color: white;
+    width: 98px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.mensagem-dele-4{
+    display: flex;
+    background-color: rgb(217, 253,211);
+    width: 135px;
+    padding: 8px;
+    margin-left: 82%;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.mensagem-dele-5{
+    display: flex;
+    background-color: rgb(217, 253,211);
+    width: 90px;
+    padding: 8px;
+    margin-left: 87%;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.botao-mensagem2{
+    margin-top: 25px;
+    width: 130px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 17px;
+    color: var(--cinza);
+}
+
+.mensagem-dele-6{
+    display: flex;
+    background-color: rgb(217, 253,211);
+    width: 290px;
+    padding: 8px;
+    margin-left: 64%;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.mensagem-dele-7{
+    display: flex;
+    background-color: white;
+    width: 130px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+.mensagem-dele-8{
+    display: flex;
+    background-color: white;
+    width: 260px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+.mensagem-dele-9{
+    display: flex;
+    background-color: white;
+    width: 270px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.mensagem-dele-10{
+    display: flex;
+    background-color: white;
+    width: 170px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.mensagem-dele-11{
+    display: flex;
+    background-color: white;
+    width: 140px;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
